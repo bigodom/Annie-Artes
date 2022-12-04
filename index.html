@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <style>  </style>
+  <title>Annie's Artwork</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Annie's Artwork</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Sobre mim</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="demo" class="carousel slide fotos" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./static/image1.jpg" alt="Los Angeles" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="./static/image2.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="./static/image3.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <!--Seção sobre mim-->
+  <div class="container">
+    <div class="row">
+      <div class="sobre">
+        <h2 style="color: #4b7bac;">Sobre mim</h2>
+        <img src="./static/annie.jpg" alt="" style="width: 80vw;">
+        <h5>Meu nome é Annie e sou uma artista. Especializo-me em pintura e desenho. Adoro criar arte que é inspirada pela natureza e pelo mundo à minha volta. Estou sempre à procura de novas maneiras de expressar a minha criatividade e explorar novos meios.</h5>
+        <p>Também sou apaixonada por ensinar arte aos outros. Acredito que todos têm o potencial de criar algo bonito e estou dedicada a ajudar os outros a encontrar a sua própria voz criativa. </p>
+      </div>
+      
+    </div>
+    <!--Seção contato-->
+    <div class="contato">
+      <h2>Contate</h2>
+      <a href="https://instagram.com/annieartess?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./static/instagram.png" alt="Instagram" width="50" height="50" class="logo"></a>
+      <a href="https://shopee.com.br/annieinacio?categoryId=22133&itemId=9029325380" target="_blank"><img src="./static/shopee.png" alt="Shopee" width="50" height="50" class="logo"></a>
+      <a href="https://mobile.twitter.com/annieartess" target="_blank"><img src="./static/twitter.png" alt="Twitter" width="50" height="50" class="logo"></a>
+      <a href="https://www.tiktok.com/@annieartess?_t=8XuFr7zRjd7&_r=1" target="_blank"><img src="./static/tiktok.png" alt="TikTok" width="50" height="50" class="logo"></a>
+    </div>
+  </div>
+  <div class="container"><p>Feito com amor e maldade pelo Pedro Malvadão</p></div>
+</body>
+</html>
